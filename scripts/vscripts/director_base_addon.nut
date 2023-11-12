@@ -379,7 +379,7 @@ BotTextChatter <-
 			"Get out of my way then!",
 			"Next time, move your fat ass.",
 			"Stop getting in my way!",
-			"You're the one standing in fromt of me.",
+			"You're the one standing in front of me.",
 		];
 
 		// Make the attacker bot say something
