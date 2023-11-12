@@ -114,6 +114,7 @@ BotTextChatter <-
 						"Upgradeable ammo being deployed!",
 						"Deployed some cool ammo!",
 						"Deploying the useless ammo!",
+						"Wait! Deploying some ammo."
 					];
 
 					local len = deploy_lines.len() - 1
@@ -176,7 +177,8 @@ BotTextChatter <-
 			"Game is broken. My AI should be immune to damage!",
 			"Valve didn't give me buddha or god.",
 			"It's not a skill issue, help me up!",
-			"It's just not going my way, please help me."
+			"It's just not going my way, please help me.",
+			"it's boring being down, so you should get me",
 		];
 
 		local len = incap_lines.len() - 1
@@ -257,6 +259,7 @@ BotTextChatter <-
 			"Oh hell no boy, don't you be shooting me!",
 			"GODDAMN IT, STOP SHOOTING ME!",
 			"Oh hell no, do not shoot me!",
+			"You do not want to be shooting me",
 			"Unless you want to be kicked, stop shooting me!",
 			"Damn! You suck at shooting.",
 			"Dumbshit!",
@@ -270,7 +273,8 @@ BotTextChatter <-
 			"You're messing my aim up, stop!",
 			"Come on now, seriously!?",
 			"Man, cut that shit out!",
-			"Cease and desist!",
+			"Cease and desist, or some shit.",
+			"man, Cease and desist from that!",
 			"You do know I also have a gun, right?",
 			"You're an asshole when you're mad?",
 			"Are you really going to shoot me?!",
@@ -331,7 +335,7 @@ BotTextChatter <-
 
 			// insults from real games
 			"what the fuck?",
-			"shitbag!"
+			"shitbag!",
 			"moron",
 			"who let this blind kid play?",
 			"suck my nuts!",
@@ -350,6 +354,18 @@ BotTextChatter <-
 			"you little shit, kick " + attackerName,
 			attackerName + ", go clean dishes.",
 			attackerName + ", Fuck off!",
+
+
+			// Community Lines
+			"bro it better not be on purpose.",
+			"you're hurting me..... and my feelings :(",
+			"Friendly Fire Detected. Caused by the user " + attackerName,
+			"Look, I may be an AI but im useful in some ways, don't attack me again please.",
+			attackerName + " ???",
+			"don't take shooting everything that moves literally " + attackerName,
+			"karma is gonna get you sooner or later, mark my fucking words " + attackerName,
+
+
 		];
 
 		// Make the bot say something when attacked by a teammate
@@ -501,6 +517,13 @@ BotTextChatter <-
 				"u bullshitting me? that was mine!",
 				"HORSE BALLS! THAT WAS MY KILL!",
 				"You dick! That was my kill!",
+
+				// Community Lines
+				"that wasn't even that hard, ngl.",
+				"Damn, could've gotten that first.",
+				"when was the last time you touched grass, " + killerName + "?",
+				"ez kill.",
+				"jeez " + killerName + ", hope you didn't sweat that much on that kill",
 			];
 
 			// If the random bot is not incapped, hanging, near death or no tanks active, they can speak.
@@ -512,6 +535,8 @@ BotTextChatter <-
 
 	function ChatOnKill( killer )
 	{
+		// local victimName = victim.GetPlayerName();
+
 		local killer_lines =
 		[
 			"Gotcha, you slow cousin.",
