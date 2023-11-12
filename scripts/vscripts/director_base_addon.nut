@@ -207,7 +207,7 @@ BotTextChatter <-
 			"Don't mention it.",
 			"This is a team effort, now come on.",
 			"I wasn't going to leave you here, let's go.",
-			"You will recuse me next time?",
+			"You will rescue me next time?",
 			"Come on, we got zombies to kill and shit.",
 			"I missed you.",
 			"Can you still shoot?",
