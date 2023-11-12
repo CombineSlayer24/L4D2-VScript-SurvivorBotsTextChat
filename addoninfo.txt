@@ -2,7 +2,7 @@
 {
 	addonSteamAppID		550
     addontitle			"SurvivorBots Use Chat"
-    addonversion	    1
+    addonversion	    1.1
     addontagline		""
 	addonauthor 		"Pyri"
 	addonauthorSteamID 	""
