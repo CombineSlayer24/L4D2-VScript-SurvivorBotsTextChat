@@ -301,7 +301,7 @@ BotTextChatter <-
 			attackerName + " is this your first time playing?",
 			attackerName + " is this your first game?",
 			attackerName + "!",
-			attackerName + ", settled down there, ya shot me.",
+			attackerName + ", settle down there, ya shot me.",
 			attackerName + ", you are shooting me!",
 			attackerName + ", just stop! Okay?",
 			attackerName + "! What the hell is wrong with you?",
@@ -326,12 +326,12 @@ BotTextChatter <-
 			"Knock that shit off " + attackerName,
 			"Im putting you on blast " + attackerName,
 			"Cut that shit out " + attackerName,
-			"Imma throw a Molotov at you " + attackerName,
+			"I will throw a Molotov at you " + attackerName,
 			"Quit shooting me " + attackerName,
 			"Shoot the zombies " + attackerName,
 			"Shoot the infected " + attackerName,
 			"You're hurting me when you do that " + attackerName,
-			"Might as well just take it... STOP IT " + attackerName,
+			"I don't want to hear it, just stop it " + attackerName,
 
 			// insults from real games
 			"what the fuck?",
@@ -476,8 +476,8 @@ BotTextChatter <-
 				"That was outstanding " + killerName + "!",
 				"You a good teammate " + killerName + ".",
 				"Great job " + killerName + ". You got it in you!",
-				"outstanding " + killerName + "!",
-				"cool shot " + killerName,
+				"Outstanding " + killerName + "!",
+				"Cool shot " + killerName,
 
 				// Jealous
 				"I thought I got that one, oh well.",
@@ -511,10 +511,10 @@ BotTextChatter <-
 				"Oh bullshit, that was my kill!",
 				"WHAT? That was my kill.",
 				"That was mine! come one!",
-				"steal killing bitch",
+				"Steal killing bitch",
 				"You killed them before me!?",
-				"i did most damage, I should've gotten it",
-				"u bullshitting me? that was mine!",
+				"I did most damage, I should've gotten it",
+				"You bullshitting me? that was mine!",
 				"HORSE BALLS! THAT WAS MY KILL!",
 				"You dick! That was my kill!",
 
@@ -567,7 +567,7 @@ BotTextChatter <-
 			"Someone got their ass kicked!",
 			"Zombie kill of the week? Me!",
 			"I'm the best killer out there!",
-			"No friend requests please, i'm just skilled.",
+			"No friend requests please, I'm just skilled.",
 			"Not so special anymore?",
 			"You just suck!",
 			"Domination pal, look into it!",
@@ -579,7 +579,7 @@ BotTextChatter <-
 			"That wasn't even close.",
 			"More where that came from!",
 			"It's starting to bore me on how much you suck!",
-			"It's starting to bore me on easy it is.",
+			"It's starting to bore me on how easy it is.",
 		];
 
 		local len = killer_lines.len() - 1
